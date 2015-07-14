@@ -1,0 +1,29 @@
+{
+  "name": "bookmark",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/bookmark",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "shared",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bookmarks_database": "git@github.com:alivedise/bookmarks_database.git",
+    "buttons": "git@github.com:alivedise/buttons.git",
+    "confirm": "git@github.com:alivedise/confirm.git",
+    "gaia_grid": "git@github.com:alivedise/gaia_grid.git",
+    "font_size_utils": "git@github.com:alivedise/font_size_utils.git",
+    "headers": "git@github.com:alivedise/headers.git",
+    "icons_helper": "git@github.com:alivedise/icons_helper.git",
+    "input_areas": "git@github.com:alivedise/input_areas.git",
+    "homescreens": "git@github.com:alivedise/homescreens.git",
+    "url_helper": "git@github.com:alivedise/url_helper.git",
+    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git",
+    "status": "git@github.com:alivedise/status.git",
+    "l10n": "git@github.com:alivedise/l10n.git"
+  }
+}

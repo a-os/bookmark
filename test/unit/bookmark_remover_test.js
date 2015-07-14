@@ -4,9 +4,9 @@
 /* global requireApp, require, suite, suiteTeardown, suiteSetup, test, assert,
           sinon, teardown, setup, MockL10n */
 
-require('/shared/js/bookmarks_database.js');
+require('/shared/bookmarks_database/bookmarks_database.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 requireApp('bookmark/js/bookmark_remover.js');
 
 suite('bookmark_remover.js >', function() {

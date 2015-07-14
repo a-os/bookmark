@@ -4,8 +4,8 @@
 /* global require, suite, suiteTeardown, suiteSetup, test, assert, teardown,
           setup */
 
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
-require('/shared/js/bookmarks_database.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
+require('/shared/bookmarks_database/bookmarks_database.js');
 
 suite('bookmarks_database.js >', function() {
 
