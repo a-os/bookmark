@@ -5,14 +5,14 @@
           sinon, MocksHelper */
 
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
-require('/shared/test/unit/mocks/mock_web_manifest_helper.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_web_manifest_helper.js');
 
-require('/shared/test/unit/mocks/mock_icons_helper.js');
-require('/shared/js/homescreens/icon.js');
+require('/shared/unit_test_mocks/mock_icons_helper.js');
+require('/shared/homescreens/icon/homescreens/icon.js');
 requireApp('bookmark/js/bookmark_editor.js');
-require('/shared/js/bookmarks_database.js');
-require('/shared/js/url_helper.js');
+require('/shared/bookmarks_database/bookmarks_database.js');
+require('/shared/url_helper/url_helper.js');
 
 var mocksForBookmarkEditor = new MocksHelper([
   'IconsHelper', 'WebManifestHelper'

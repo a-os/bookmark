@@ -5,7 +5,7 @@
 /* global requireApp, require, suite, suiteTeardown, suiteSetup, test, assert,
           MocksHelper, MockL10n, sinon */
 
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 
 requireApp('bookmark/test/unit/mock_mozsetmessagehandler.js');
 requireApp('bookmark/test/unit/mock_bookmark_editor.js');

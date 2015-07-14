@@ -1,4 +1,4 @@
 'use strict';
 
 /* global require */
-require('/shared/test/unit/mocks/mocks_helper.js');
+require('/shared/unit_test_mocks/mocks_helper.js');
