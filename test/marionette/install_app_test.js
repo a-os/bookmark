@@ -3,7 +3,7 @@
 /* global   setup, test */
 
 var Bookmark = require('../../../../apps/system/test/marionette/lib/bookmark');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 marionette('Bookmark -', function() {
   var client = marionette.client({

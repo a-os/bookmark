@@ -24,6 +24,7 @@
     "url_helper": "git@github.com:alivedise/url_helper.git",
     "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git",
     "status": "git@github.com:alivedise/status.git",
-    "l10n": "git@github.com:alivedise/l10n.git"
+    "l10n": "git@github.com:alivedise/l10n.git",
+    "test_integration": "git@github.com:alivedise/test_integration.git#~0.0.1"
   }
 }
